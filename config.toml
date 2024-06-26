@@ -25,12 +25,11 @@ primary_color_alpha = "rgba(64, 192, 87, 0.2)"
 issues_url = "https://codeberg.org/daudix/duckquill/issues"
 # URL to website's source code
 source_url = "https://codeberg.org/daudix/duckquill"
-# Additional CSS stylesheets; expects them to be in the "./static/" directory.
-# If you are using Sass it will be generated there automatically.
-# stylesheets = [
-#   "YOUR_STYLE.css",
-#   "ALSO_YOUR_STYLE.css"
-# ]
+
+stylesheets = [
+    "custom.css"
+]
+
 # Additional JavaScript scripts; expects them to be in the "./static/" directory.
 # scripts = [
 #   "YOUR_SCRIPT.js",

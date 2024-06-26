@@ -1,0 +1,10 @@
+:root {
+    --rounded-corner: 5px;
+}
+
+.pre-container button {
+    background-color: var(--primary-color-alpha);
+}
+.pre-container button:hover {
+    background-color: var(--primary-color);
+}
