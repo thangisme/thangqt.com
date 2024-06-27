@@ -22,9 +22,9 @@ primary_color = "#40c057"
 primary_color_alpha = "rgba(64, 192, 87, 0.2)"
 #emoji_favicon = ""
 # URL to website's issue tracker
-issues_url = "https://codeberg.org/daudix/duckquill/issues"
+issues_url = "https://github.com/thangisme/thangqt.com/issues"
 # URL to website's source code
-source_url = "https://codeberg.org/daudix/duckquill"
+source_url = "https://github.com/thangisme/thangqt.com"
 
 stylesheets = [
     "custom.css"
@@ -38,7 +38,7 @@ stylesheets = [
 # Whether to show "copy code" button on all code blocks
 # that have the language set.
 # See https://www.getzola.org/documentation/content/syntax-highlighting/
-show_copy_button = true
+show_copy_button = false
 
 [extra.nav]
 # Whether to show Atom/RSS feed button in the nav
@@ -81,6 +81,6 @@ show_source = false
 #user = "daudix"
 #show_qr = true
 
-#[extra.goatcounter]
+[extra.goatcounter]
 # host = "YOUR_SERVER"
-#user = "daudix"
+user = "thangqt"
