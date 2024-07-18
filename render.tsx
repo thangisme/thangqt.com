@@ -70,7 +70,7 @@ export function renderPage({
   <meta property="og:title" content="${pageTitle}">
   <meta property="og:description" content="$${pageDescription}">
   <meta property="og:url" content="${page.url}">
-  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.ico" />
   <link rel="alternate" type="application/atom+xml" href="/feed.xml" title="${
     userConfig.title
   }" />

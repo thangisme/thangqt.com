@@ -19,10 +19,10 @@ export { default as presetAutoprefix } from "npm:@twind/preset-autoprefix@1.0.7"
 export { default as presetExt } from "npm:@twind/preset-ext@1.0.7";
 
 export {
-  mauve as neutral,
-  mauveDark as neutralDark,
-  violet as accent,
-  violetDark as accentDark,
+  gold as neutral,
+  goldDark as neutralDark,
+  lime as accent,
+  limeDark as accentDark,
   blue,
   blueDark,
   red,

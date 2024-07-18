@@ -1,10 +1,10 @@
 {
-  "title": "Ter",
-  "description": "A tiny wiki-style site builder with Zettelkasten flavor",
-  "url": "https://ter.kkga.me/",
-  "authorName": "Gadzhi Kharkharov",
-  "authorEmail": "x@kkga.me",
-  "authorUrl": "https://kkga.me/",
-  "head": "<script async src='https://poetic-tortoise.pikapod.net/script.js' data-website-id='fca5dc55-8ee2-4abf-8f49-38eb94c49a98'></script>",
+  "title": "ThangQT",
+  "description": "Personal site of Quang Thang",
+  "url": "https://thangqt.com/",
+  "authorName": "Quang Thang",
+  "authorEmail": "thang@thangqt.com",
+  "authorUrl": "https://thangqt.com/",
+  "head": "",
   "codeHighlight": true
 }
