@@ -27,9 +27,8 @@ description: What I use
          ▝▀▀▀    ▀▀▀▀▘       ▀▀▀▘                                     
 ```
 I’m running NixOS with Hyprland on my ThinkBook 14 G5+ laptop. In addition, I own a Redmi note 11 phone. Some of daily softwares I use that are worth mentioning:
-- Browser: Firefox on laptop, Cromite on mobile phone
-- Email client: Thunderbird on laptop, K9 Mail on mobile phone
+- Browser: Firefox 
 - Password manager: Bitwarden
 - Music player: Spotify
-- Code editor: VSCode; Learning VIM, Testing Zed
+- Code editor: Helix
 - Space-repetitioned learning: Anki

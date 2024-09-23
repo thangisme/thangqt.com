@@ -2,3 +2,4 @@ _site
 test-10000
 cov_profile
 node_modules
+.direnv
