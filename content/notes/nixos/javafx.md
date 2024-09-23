@@ -3,7 +3,7 @@ title: Running JavaFX on NixOS (with IntelliJ IDEA)
 date: 2024-09-23
 ---
 
-# The shell
+## shell.nix
 
 ```nix
 {
@@ -28,6 +28,7 @@ pkgs.mkShell {
 }
 ```
 
-# IntelliJ IDEA
+## IntelliJ IDEA
+
 You should have `direnv` locally installed.
 Use [Better Direnv](https://plugins.jetbrains.com/plugin/19275-better-direnv) plugin and enable Direnv for your build configuratiion
