@@ -1,6 +1,8 @@
 ---
 title: Running JavaFX on NixOS (with IntelliJ IDEA)
 date: 2024-09-23
+tags:
+  - nixos
 ---
 
 ## shell.nix

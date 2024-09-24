@@ -1,7 +1,14 @@
 ---
 title: Git push unexpectedly freezes my system
 date: 2024-09-24
+tags: 
+  - linux
+  - nixos
+  - troubleshooting
 ---
+
+*Disclaimer: This blog post has been rewritten with the assistance of AI to improve clarity and readability.
+If you wish to read the original version, you can find it [here](https://github.com/thangisme/thangqt.com/blob/8b8e663cf1aca1cac083ad6d3ba0bd8767e7539a/content/notes/nixos/git_push_freeze_system.md)*
 
 Yesterday, while making a small update to my website, I encountered an unusual problem: my laptop completely froze when I ran `git push`. At first, I waited, hoping it would resolve itself—no luck. My laptop wasn't overheating, the fan wasn't running, and I couldn't even switch to another tty to kill the process.
 
