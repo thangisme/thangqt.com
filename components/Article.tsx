@@ -62,7 +62,11 @@ const Header = ({
         "gap-2 mb-12": !compact,
       })}
     >
-      <h1 class={cx("tracking-tight my-0", { "text-xl": compact })}>{title}</h1>
+      <h1 class={cx("tracking-tight my-0", { "text-xl": compact })}>
+        <a href={url.toString()}>
+          {title}
+        </a>
+      </h1>
 
       {description && <p class="lead">{description}</p>}
 
@@ -100,6 +104,7 @@ const Header = ({
     </header>
   );
 };
+
 
 interface ArticleProps {
   page: Page;
