@@ -21,6 +21,7 @@ import { serve } from "./serve.ts";
 import { generateFeed } from "./feed.ts";
 import { renderPage } from "./render.tsx";
 import { BuildConfig, Page } from "./types.d.ts";
+import { generateSitemap } from "./sitemap.ts";
 
 export interface GenerateSiteOpts {
   config: BuildConfig;
@@ -160,6 +161,14 @@ const generateSite = async (opts: GenerateSiteOpts) => {
     {
       writePath: join(outputPath, "feed.xml"),
       content: generateFeed({ userConfig, pages }).atom1(),
+    },
+    {
+      writePath: join(outputPath, "sitemap.xml"),
+      content: generateSitemap({ pages, userConfig }).xml,
+    },
+    {
+      writePath: join(outputPath, "sitemap.txt"),
+      content: generateSitemap({ pages, userConfig }).txt,
     },
   ];
 
