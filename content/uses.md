@@ -33,7 +33,7 @@ description: What I use
                                                Locale: en_US.UTF-8
 ```
 
-I’m running NixOS on my ThinkBook 14 G5+ laptop. In addition, I own a Pixel 9 Pro phone. Some of daily softwares I use that are worth mentioning:
+I’m running NixOS on my ThinkBook 14 G5+ laptop. In addition, I own a Pixel 9 Pro. Some of daily softwares I use that are worth mentioning:
 - Browser: Firefox 
 - Password manager: Bitwarden
 - Music player: Spotify
