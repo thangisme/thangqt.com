@@ -1,5 +1,5 @@
 ---
 title: Logs
-description: Mostly microblogging
+description: Unfiltered thoughts and reflections
 layout: log
 ---
