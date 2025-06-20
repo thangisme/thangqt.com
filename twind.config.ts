@@ -101,6 +101,7 @@ export const twindConfig = defineConfig({
         del: { "@apply": "opacity-60" },
         small: { "@apply": "text-neutral-11" },
         details: { "@apply": "text-neutral-11" },
+        img: { "@apply": "rounded-md" },
         table: { "@apply": "leading-snug" },
         li: {
           "@apply": "my-0 pl-0",
