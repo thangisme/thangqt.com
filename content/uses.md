@@ -1,7 +1,10 @@
 ---
 title: Uses
 description: The tools behind the chaos
+unlisted: true
 ---
+
+> The following content is outdated and will no longer receive updates.
 
 ```
 ╰─❯ fastfetch
