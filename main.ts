@@ -139,7 +139,7 @@ const generateSite = async (opts: GenerateSiteOpts) => {
       const childTags = getTags(allChildPages);
       const childPagesByTag = getPagesByTags(listedPages, childTags);
       const allPagesByTag = getPagesByTags(listedPages, getTags(listedPages));
-      const crumbs = generateCrumbs(page, userConfig.rootCrumb);
+      const crumbs = generateCrumbs(page, userConfig.rootCrumb, listedPages);
       const relatedPages = getRelatedPages(listedPages, page);
 
       logLevel > 1 && console.log(`render\t${relative(Deno.cwd(), writePath)}`);

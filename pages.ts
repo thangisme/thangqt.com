@@ -23,20 +23,30 @@ interface GeneratePageOpts {
 
 const decoder = new TextDecoder("utf-8");
 
-function generateCrumbs(page: Page, rootCrumb?: string): Crumb[] {
+function generateCrumbs(page: Page, rootCrumb?: string, allPages?: Page[]): Crumb[] {
   const chunks = page.url.pathname.split("/").filter((ch) => !!ch);
 
   const crumbs: Crumb[] = chunks.map((chunk, i) => {
     const url = path.join("/", ...chunks.slice(0, i + 1));
+    
+    // Try to find the actual page title for this URL path
+    let displayName = chunk;
+    if (allPages) {
+      const matchingPage = allPages.find(p => p.url.pathname === url || p.url.pathname === url + "/");
+      if (matchingPage && matchingPage.title) {
+        displayName = matchingPage.title;
+      }
+    }
+    
     return {
-      slug: chunk,
+      slug: displayName,
       url,
       current: url === page.url.pathname,
     };
   });
 
   crumbs.unshift({
-    slug: rootCrumb ?? "index",
+    slug: rootCrumb ?? "~",
     url: "/",
     current: page.url.pathname === "/",
   });
